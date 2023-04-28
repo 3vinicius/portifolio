@@ -1,5 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
+
+/* Colors
+
+color 1: #3c404a
+Color back: #232833 or #1d1d1d
+
+color details: #cb6971
+*/
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-size: 16px;
+  color: #f0f8ff;
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #1d1d1d;
+}
+
+section,div.card-line{
+  background-color: #3c404a;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #00000084;
 }

@@ -10,10 +10,10 @@ function App() {
 
   return (
     <>
-      <div>
-        <p>oi</p>
-      </div>
       <Nav/>
+        <div className='container-img'>
+          <h1>Olá, eu sou Vinícius Amorim </h1>
+        </div>
       <About/>
       <Projects/>
       <Skills/>

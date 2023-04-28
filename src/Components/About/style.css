@@ -1,42 +1,55 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+section {
+  padding: 30px;
+  width: calc(70%);
+  box-shadow: 0px 0px 15px #00000084;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+section > p {
+  font-size: 0.8em;
+  text-align: justify;
+  text-indent: 20px;
+  font-weight: normal;
+  margin-top: 20px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section > h1 {
+  font-size: 1.2em;
+  padding: 0px 0px 20px 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+div.container {
+  padding: 40px;
+  display: flex;
+  align-items: stretch;
 }
 
-.card {
-  padding: 2em;
+aside {
+    padding: 30px;
+    padding-top: 0px;
+    width: calc(50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-items: flex-start
 }
 
-.read-the-docs {
-  color: #888;
+div.card-line {
+  display: flex;
+  background-color: #3c404a;
+  border-radius: 10px;
+  padding: 10px;
+  gap:10px;
+  justify-content:space-between
+}
+
+div.card-line > div > span {
+  margin-top: 5px;
+  font-size: 0.8em;
+  display: block;
+}
+
+
+.iconUFAL{
+  width: 90px;
 }
